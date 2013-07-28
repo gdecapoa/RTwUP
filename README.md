@@ -17,7 +17,7 @@ For example:
 ##Data Flow Description
 Tweets are captured from a Twitter's stream thanks to Twitter APIs, then are elaborated to filter it by geolocation (for example, according to the coordinates of a polygon centered of a city).  
 Links found into the tweet are processed in this way:
-* first of all, links are expanded from Twitter's shorting service (_t.co_) 
+* first of all, links are expanded from Twitter's shorting service (__t.co__) 
 * after that, if the link is "expanded" yet, then the system count directly the frequency; 
 * else, if the link is "shortned" (e.g. 'http://bit.ly/13NHE7v', 'http://goo.gl/uJH2Y', 'http://instagr.am/p/S3l5rQjCcA/', etc...) then it requires to arrive,  possibly with some expansions, to final form to count frequencies.
  
